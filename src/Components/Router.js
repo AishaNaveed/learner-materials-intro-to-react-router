@@ -4,6 +4,7 @@ import MainLayout from "./MainLayout";
 import Home from "./Home";
 import Confession from "./Confession";
 import Misdemeanour from "./Misdemeanour";
+import NotFound from "./NotFound";
 
 const Router = () =>
     <Routes>
@@ -11,6 +12,7 @@ const Router = () =>
             <Route index element={<Home />} />
             <Route path="misdemeanour" element={<Misdemeanour />} />
             <Route path="confession" element={<Confession />} />
+            <Route path="*" element={<NotFound />} />
         </Route>
     </Routes >;
 

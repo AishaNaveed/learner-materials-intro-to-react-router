@@ -11,7 +11,6 @@ const MainLayout = () => {
                 <NavLink to='/Misdemeanour'><h3>Misdemeanours</h3> </NavLink>
                 <NavLink to='/Confession'><h3>Confess To Us</h3> </NavLink>
             </nav>
-            <Footer />
         </>
     );
 }
