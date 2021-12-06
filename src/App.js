@@ -1,17 +1,16 @@
 import './App.css';
 import React from 'react';
-import Misdemeanour from './Components/Misdemeanour';
-import Confession from './Components/Confession';
-import Home from './Components/Home';
+import { BrowserRouter } from "react-router-dom";
+import Router from './Components/Router';
 
 function App() {
 
   return (
     <>
     <div className="App">
-      <Home />
-      <Misdemeanour />
-      <Confession />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
     </div>
     </>
   );
