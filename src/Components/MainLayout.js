@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Footer from './Footer';
 
 const MainLayout = () => {
     return (
@@ -10,6 +11,7 @@ const MainLayout = () => {
                 <NavLink to='/Misdemeanour'><h3>Misdemeanours</h3> </NavLink>
                 <NavLink to='/Confession'><h3>Confess To Us</h3> </NavLink>
             </nav>
+            <Footer />
         </>
     );
 }
